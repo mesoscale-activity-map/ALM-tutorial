@@ -1,10 +1,6 @@
 # saved from ALM1-define.ipynb
 
 import datajoint as dj
-dj.config['database.host'] = 'mesoscale-activity.datajoint.io'
-dj.config['database.user'] = 'dimitri'
-
-
 schema = dj.schema('tutorial_alm1_intro', locals())  # working schema
 
 
